@@ -39,7 +39,7 @@ fun Layout3() {
             .padding(10.dp),
             horizontalArrangement = Arrangement.SpaceBetween
         ){
-            Text(text = "Gerard Gerard Gerard Gerard Gerard Gerard Gerard Gerard Gerard Gerard Gerard Gerard Gerard Gerard Gerard Gerard Gerard Gerard Gerard Gerard Gerard Gerard Gerard Gerard Gerard ", modifier = Modifier
+            Text(text = "Gerard Gerard Gerard Gerard Gerard Gerard Gerard Gerard Gerard Gerard Gerard Gerard Gerard Gerard Gerard Gerard Gerard Gerard Gerard Gerard Gerard Gerard Gerard Gerard ", modifier = Modifier
                 .background(Color.Red)
                 .padding(8.dp)
                 .width(100.dp)
