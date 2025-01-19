@@ -10,16 +10,36 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import cat.dam.gerard.app.ui.theme.AppTheme
 
+@Preview(showBackground = true)
 @Composable
 fun Layout2() {
-    Box(
-        modifier = Modifier
-            .fillMaxSize()
-            .background(Color.Green),
-        contentAlignment = Alignment.Center
+    Row (modifier = Modifier
+        .fillMaxSize()
+        .fillMaxWidth(),
     ) {
-        Text("Layout 2", color = Color.White)
+        Text(text = "Gerard", modifier = Modifier
+            .background(Color.Red)
+            .fillMaxWidth()
+            .fillMaxSize()
+            .weight(1f)
+            .wrapContentSize(Alignment.Center),
+        )
+        Text(text = "Gerard", modifier = Modifier
+            .background(Color.Green)
+            .fillMaxWidth()
+            .fillMaxSize()
+            .weight(1f)
+            .wrapContentSize(Alignment.Center)
+        )
+        Text(text = "Gerard", modifier = Modifier
+            .background(Color.Blue)
+            .fillMaxWidth()
+            .fillMaxSize()
+            .weight(1f)
+            .wrapContentSize(Alignment.Center)
+        )
     }
+
 }
 
 @Composable
